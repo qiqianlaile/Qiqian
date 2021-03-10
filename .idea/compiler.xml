@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="baoleme-shop" />
+        <module name="baolemo-user" />
+        <module name="baolemo-configs" />
+        <module name="baolemo-shopcard" />
+        <module name="baolemo-zuul" />
+        <module name="baolemo-pojo" />
+        <module name="baolemo-eureka" />
+        <module name="baolemo-utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="baolemo-config" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="baoleme-parent" options="-parameters" />
+      <module name="baoleme-shop" options="-parameters" />
+      <module name="baolemo-config" options="-parameters" />
+      <module name="baolemo-configs" options="-parameters" />
+      <module name="baolemo-eureka" options="-parameters" />
+      <module name="baolemo-pojo" options="-parameters" />
+      <module name="baolemo-shopcard" options="-parameters" />
+      <module name="baolemo-user" options="-parameters" />
+      <module name="baolemo-utils" options="-parameters" />
+      <module name="baolemo-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

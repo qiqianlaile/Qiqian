@@ -1,0 +1,13 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: baoleme-eureka
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:8000/eureka
+  server:
+    enable-self-preservation: false

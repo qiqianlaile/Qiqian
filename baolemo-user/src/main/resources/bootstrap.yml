@@ -1,0 +1,19 @@
+server:
+  port: 8200
+spring:
+  application:
+    name: baoleme-user
+  cloud:
+    config:
+      discovery:
+        service-id: baoleme-config
+        enabled: true
+      name: neo-config
+      profile: dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka
+feign:
+  hystrix:
+    enabled: true
